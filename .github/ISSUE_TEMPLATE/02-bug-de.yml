@@ -1,0 +1,120 @@
+---
+name: Fehlerbericht (Deutsch)
+description: Ein reproduzierbares Problem mit Ride Dashboard melden.
+labels:
+- bug
+body:
+- type: markdown
+  attributes:
+    value: |-
+      **Dieses Issue und alle Anhänge sind öffentlich.** Keine privaten Aktivitäts-, Gesundheits-, Konto- oder genauen Standortdaten, FIT-Dateien, vollständigen Aktivitätsexporte oder vollständigen Logs veröffentlichen. Bilder nur zugeschnitten und nach Entfernung privater Informationen anhängen. Es gibt derzeit keinen privaten Supportkanal.
+
+      Bitte zuerst [vorhandene Issues durchsuchen](https://github.com/Usebit/ride-dashboard-support/issues) und die [Supportanleitung lesen](https://github.com/Usebit/ride-dashboard-support/blob/main/support-de.md).
+- type: input
+  id: app-version
+  attributes:
+    label: Ride-Dashboard-Version
+    description: Installierte Version angeben oder „unbekannt“, falls sie sich nicht
+      ermitteln lässt.
+    placeholder: 'Zum Beispiel: 1.0.0 oder unbekannt'
+  validations:
+    required: true
+- type: dropdown
+  id: device-model
+  attributes:
+    label: Edge-Modell
+    options:
+    - Edge 1040
+    - Edge 1040 Solar
+    - Anderes Modell (unten angeben)
+  validations:
+    required: true
+- type: input
+  id: firmware
+  attributes:
+    label: Firmwareversion
+    description: Firmwareversion des Edge angeben oder „unbekannt“.
+    placeholder: Version oder unbekannt
+  validations:
+    required: true
+- type: input
+  id: device-language
+  attributes:
+    label: Gerätesprache
+  validations:
+    required: true
+- type: dropdown
+  id: units
+  attributes:
+    label: Einheiten
+    options:
+    - Metrisch
+    - Imperial
+    - Gemischt / benutzerdefiniert
+  validations:
+    required: true
+- type: dropdown
+  id: field-geometry
+  attributes:
+    label: Datenfeldformat
+    options:
+    - Breit
+    - Halbbreit
+    - Anderes Format (unten beschreiben)
+  validations:
+    required: true
+- type: textarea
+  id: settings
+  attributes:
+    label: Betroffene Werte und Einstellungen
+    description: Wert, Vorlage, maximale Kachelzahl, Art/Position der Zusatzleiste
+      und relevante Anzeigeeinstellungen nennen. Ein anderes Gerätemodell oder Datenfeldformat
+      hier angeben.
+  validations:
+    required: true
+- type: textarea
+  id: reproduction
+  attributes:
+    label: Schritte zum Reproduzieren
+    placeholder: |-
+      1. Öffnen …
+      2. Auswählen …
+      3. Beobachten …
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: Erwartetes Verhalten
+  validations:
+    required: true
+- type: textarea
+  id: actual
+  attributes:
+    label: Tatsächliches Verhalten
+  validations:
+    required: true
+- type: textarea
+  id: sensors
+  attributes:
+    label: Sensoren / elektronische Schaltung (optional)
+    description: Nur Modelle und Verbindungszustand; keine Seriennummern oder Aufzeichnungen.
+  validations:
+    required: false
+- type: textarea
+  id: screenshots
+  attributes:
+    label: Zugeschnittene Bildschirmfotos oder Fotos (optional)
+    description: Private Aktivitäts-, Gesundheits-, Konto- und genaue Standortdaten
+      vor dem Anhängen eines Bildes entfernen.
+  validations:
+    required: false
+- type: checkboxes
+  id: privacy
+  attributes:
+    label: Nur öffentliche Informationen
+    options:
+    - label: Ich bestätige, dass dieses Issue und seine Anhänge keine privaten Aktivitäts-,
+        Gesundheits-, Konto- oder genauen Standortdaten, FIT-Dateien, vollständigen
+        Aktivitätsexporte oder vollständigen Logs enthalten.
+      required: true

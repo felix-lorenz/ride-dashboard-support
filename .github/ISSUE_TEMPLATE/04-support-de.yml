@@ -1,0 +1,60 @@
+---
+name: Supportfrage (Deutsch)
+description: Hilfe bei Installation, Einrichtung oder Bedienung erhalten.
+labels:
+- question
+body:
+- type: markdown
+  attributes:
+    value: |-
+      **Dieses Issue und alle Anhänge sind öffentlich.** Keine privaten Aktivitäts-, Gesundheits-, Konto- oder genauen Standortdaten, FIT-Dateien, vollständigen Aktivitätsexporte oder vollständigen Logs veröffentlichen. Bilder nur zugeschnitten und nach Entfernung privater Informationen anhängen. Es gibt derzeit keinen privaten Supportkanal.
+
+      Bitte zuerst [vorhandene Issues durchsuchen](https://github.com/Usebit/ride-dashboard-support/issues) und die [Supportanleitung lesen](https://github.com/Usebit/ride-dashboard-support/blob/main/support-de.md).
+- type: textarea
+  id: question
+  attributes:
+    label: Deine Frage
+    description: Falls du ein anderes Gerätemodell auswählst, nenne es hier.
+  validations:
+    required: true
+- type: dropdown
+  id: device-model
+  attributes:
+    label: Edge-Modell
+    options:
+    - Edge 1040
+    - Edge 1040 Solar
+    - Anderes Modell (unten angeben)
+  validations:
+    required: true
+- type: textarea
+  id: attempted-solutions
+  attributes:
+    label: Was hast du bereits versucht?
+    description: Bisherige Versuche beschreiben oder „noch nichts versucht“ angeben.
+  validations:
+    required: true
+- type: input
+  id: app-version
+  attributes:
+    label: Ride-Dashboard-Version
+    description: Installierte Version angeben oder „unbekannt“, falls sie sich nicht
+      ermitteln lässt.
+    placeholder: 'Zum Beispiel: 1.0.0 oder unbekannt'
+  validations:
+    required: false
+- type: textarea
+  id: settings
+  attributes:
+    label: Relevante Einstellungen (optional)
+  validations:
+    required: false
+- type: checkboxes
+  id: privacy
+  attributes:
+    label: Nur öffentliche Informationen
+    options:
+    - label: Ich bestätige, dass dieses Issue und seine Anhänge keine privaten Aktivitäts-,
+        Gesundheits-, Konto- oder genauen Standortdaten, FIT-Dateien, vollständigen
+        Aktivitätsexporte oder vollständigen Logs enthalten.
+      required: true

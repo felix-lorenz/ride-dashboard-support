@@ -1,0 +1,9 @@
+---
+blank_issues_enabled: false
+contact_links:
+- name: Support guide (English)
+  url: https://github.com/Usebit/ride-dashboard-support/blob/main/support-en.md
+  about: Read troubleshooting tips before opening an issue.
+- name: Supportanleitung (Deutsch)
+  url: https://github.com/Usebit/ride-dashboard-support/blob/main/support-de.md
+  about: Vor einer neuen Meldung die Hinweise zur Fehlerbehebung lesen.
