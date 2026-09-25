@@ -6,6 +6,9 @@ Ride Dashboard ist ein konfigurierbares Garmin-Connect-IQ-Datenfeld für
 **Edge 1040** und **Edge 1040 Solar**. Es zeigt Aktivitäts- und Sensorwerte in
 konfigurierbaren Kacheln mit einer optionalen Zusatzleiste.
 
+Betreut von Felix Lorenz. Ride Dashboard kann kostenlos heruntergeladen und
+genutzt werden.
+
 Dieses Repository enthält öffentliche Supportinformationen und Issue-Formulare
 für Ride Dashboard. App-Quellcode und Release-Builds werden separat gepflegt.
 
@@ -17,8 +20,8 @@ für Ride Dashboard. App-Quellcode und Release-Builds werden separat gepflegt.
 
 ## Hilfe erhalten oder eine Verbesserung vorschlagen
 
-Vor einer neuen Meldung bitte [vorhandene Issues durchsuchen](https://github.com/Usebit/ride-dashboard-support/issues).
-Anschließend ein [Issue-Formular auswählen](https://github.com/Usebit/ride-dashboard-support/issues/new/choose):
+Vor einer neuen Meldung bitte [vorhandene Issues durchsuchen](https://github.com/felix-lorenz/ride-dashboard-support/issues).
+Anschließend ein [Issue-Formular auswählen](https://github.com/felix-lorenz/ride-dashboard-support/issues/new/choose):
 **Fehlerbericht**, **Supportfrage** oder **Funktionswunsch**, jeweils auf
 Englisch und Deutsch. Zum Absenden ist ein GitHub-Konto erforderlich. Die
 Informationsseiten sind ohne Anmeldung lesbar.

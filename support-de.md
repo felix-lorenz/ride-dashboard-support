@@ -1,9 +1,9 @@
 # Ride Dashboard Support — Deutsch
 
-[English](support-en.md) | [Deutsch](support-de.md) | [Startseite](README-de.md) | [Issue erstellen](https://github.com/Usebit/ride-dashboard-support/issues/new/choose)
+[English](support-en.md) | [Deutsch](support-de.md) | [Startseite](README-de.md) | [Issue erstellen](https://github.com/felix-lorenz/ride-dashboard-support/issues/new/choose)
 
 Support erfolgt über GitHub Issues:
-https://github.com/Usebit/ride-dashboard-support/issues
+https://github.com/felix-lorenz/ride-dashboard-support/issues
 
 Vor einem neuen Issue bitte prüfen, ob das Problem bereits gemeldet wurde. Für
 eine aussagekräftige Meldung folgende Angaben ergänzen:
