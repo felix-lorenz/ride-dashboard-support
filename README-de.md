@@ -14,7 +14,7 @@ Garmin-Karte sehen möchten.
 
 ## Installation
 
-[Ride Dashboard im Garmin Connect IQ Store öffnen](https://apps.garmin.com/en-US/apps/3fc01697-6230-4efa-b79b-6470ccac4483).
+[Ride Dashboard im Garmin Connect IQ Store öffnen](https://apps.garmin.com/de-DE/apps/3fc01697-6230-4efa-b79b-6470ccac4483).
 
 Ride Dashboard unterstützt **Edge 1040**, **Edge 1040 Solar** und **Edge 1050**.
 Für den Edge 1050 ist mindestens Ride Dashboard 1.1.0 erforderlich.
