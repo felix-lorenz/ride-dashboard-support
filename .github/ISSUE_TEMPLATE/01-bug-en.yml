@@ -26,6 +26,7 @@ body:
     options:
     - Edge 1040
     - Edge 1040 Solar
+    - Edge 1050
     - Other (specify below)
   validations:
     required: true

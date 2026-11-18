@@ -4,14 +4,15 @@
 
 ## Installieren
 
-1. Ride Dashboard kostenlos aus dem Garmin Connect IQ Store herunterladen.
-2. Die App auf dem Edge 1040 oder Edge 1040 Solar installieren und das Gerät synchronisieren.
+1. [Ride Dashboard im Garmin Connect IQ Store öffnen](https://apps.garmin.com/en-US/apps/3fc01697-6230-4efa-b79b-6470ccac4483) und kostenlos herunterladen.
+2. Die App auf dem Edge 1040, Edge 1040 Solar oder Edge 1050 installieren und das Gerät synchronisieren.
 3. Am Edge das Aktivitätsprofil öffnen, in dem das Datenfeld erscheinen soll.
 4. Die Datenseiten bearbeiten und ein breites oder halbbreites Feld auswählen.
 5. Die Connect-IQ-Datenfelder öffnen und `Ride Dashboard` auswählen.
 
-Die Bezeichnungen der Garmin-Menüs können sich je nach Firmware und
-Gerätesprache leicht unterscheiden.
+Für den Edge 1050 ist mindestens Ride Dashboard 1.1.0 erforderlich. Die
+Bezeichnungen der Garmin-Menüs können sich je nach Firmware und Gerätesprache
+leicht unterscheiden.
 
 ## Konfigurieren
 
